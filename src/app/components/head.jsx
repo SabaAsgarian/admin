@@ -362,7 +362,7 @@ function Page() {
                                 text: "Van Arsdel",
                                 icon: <Box sx={{ textAlign: 'center', borderLeft: '4px solid #4F52B2' }}>
                                     <Box sx={{ display: 'flex', justifyContent: "center", marginLeft: '3%' }}>
-                                        <Image src={icon} style={{ width: '39px' }} />
+                                        <Image src={icon} style={{ width: '39px' }} alt="icon" />
                                     </Box>
                                     <Typography sx={{ fontSize: '10px', color: '#4F52B2', marginLeft: '3%' }}>Van Arsdel</Typography>
                                 </Box>,
