@@ -50,9 +50,9 @@ export default function RecipeReviewCard() {
   };
 
   return (
-    <Card sx={{ width:{xs:'281px',md:'266px'},height:'400px' ,marginTop:'2%',}}>
+    <Card sx={{ width: '281px', height: '400px', marginTop: '4%', }}>
       <CardHeader
-       
+
         action={
           <IconButton aria-label="settings">
             <MoreHorizIcon />
@@ -61,16 +61,17 @@ export default function RecipeReviewCard() {
         title="Card title"
         subheader="Description"
       />
-    <CardMedia>
-  
-   <Box sx={{width:'80%',height:'40%',display:'flex',justifyContent:"center"}}>
-   <Image src={sub} alt='s' style={{width:"100%",height:'50%'}}/>
-   </Box>
-    </CardMedia>
-     
-      
-      <Button sx={{color:'#5B5FC7'}}>
-      View details
+      <CardMedia>
+        <Box sx={{ width: '100%', height: 'auto', display: 'flex', justifyContent: "center" }}>
+          <Box sx={{ width: '80%', height: '40%', display: 'flex', justifyContent: "center" }}>
+            <Image src={sub} alt='s' style={{ width: "100%", height: '50%' }} />
+          </Box>
+        </Box>
+      </CardMedia>
+
+
+      <Button sx={{ color: '#5B5FC7' }}>
+        View details
       </Button>
     </Card>
   );

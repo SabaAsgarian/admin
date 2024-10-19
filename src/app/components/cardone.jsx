@@ -50,7 +50,7 @@ export default function RecipeReviewCard() {
   };
 
   return (
-    <Card sx={{ maxWidth: 281,maxHeight:400 ,marginTop:'2%'}}>
+    <Card sx={{ maxWidth: 281,maxHeight:400 ,marginTop:'8%'}}>
       <CardHeader
        
         action={
