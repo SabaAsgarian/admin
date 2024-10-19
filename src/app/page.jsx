@@ -37,7 +37,7 @@ export default function page() {
                 <Box sx={{ position: 'fixed', top: '25%', left: '5%', width: '17%', height: '85%', borderRight: '1px solid #F0F0F0', display: { xs: 'none', lg: 'flex' } }}>
                     <Tree />
                 </Box>
-                <Box sx={{ width: { xs: '80%', sm: '90%', md: '95%', lg: '75%' }, height: '85%', }}>
+                <Box sx={{ width: { xs: '85%', sm: '90%', md: '95%', lg: '75%' }, height: '85%', }}>
                     <Grid
                         container
                         sx={{
