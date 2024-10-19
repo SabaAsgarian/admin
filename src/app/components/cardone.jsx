@@ -63,7 +63,9 @@ export default function RecipeReviewCard() {
       />
     <CardMedia>
       <Tabs/>
+      <Box sx={{width:'100%',height:'auto',display:'flex',justifyContent:"center"}}>
     <Gaugee />
+            </Box>
     </CardMedia>
       <CardContent>
         <Box sx={{display:'flex',justifyContent:'center'}}>
