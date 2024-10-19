@@ -47,7 +47,7 @@ export default function page() {
                             },
                             marginLeft: { xs: '-2.5px', md: '-1.5px', lg: '0px' },
                             marginTop: { xs: '-5px', md: '-3px', lg: '0px' },
-                            width: { xs: 'calc(100% + 5px)', md: 'calc(100% + 3px)', lg: 'calc(100% - 130px)' },
+                            width: { xs: 'calc(100% + 5px)', md: 'calc(100% + 3px)', lg: 'calc(100% - 160px)' },
                         }}
                     >
                         <Grid item xs={12} sm={6} md={4} lg={4}>
