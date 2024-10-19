@@ -37,24 +37,35 @@ export default function page() {
                 <Box sx={{ position: 'fixed', top: '25%', left: '5%', width: '17%', height: '85%', borderRight: '1px solid #F0F0F0', display: { xs: 'none', lg: 'flex' } }}>
                     <Tree />
                 </Box>
-                <Box sx={{ width: { xs: '80%',sm:'90%',md:'95%', lg: '75%' }, height: '85%', }}>
-                    <Grid container spacing={0}>
+                <Box sx={{ width: { xs: '80%', sm: '90%', md: '95%', lg: '75%' }, height: '85%', }}>
+                    <Grid
+                        container
+                        sx={{
+                            '& > .MuiGrid-item': {
+                                paddingLeft: { xs: '2.5px', md: '1.5px', lg: '0px' },
+                                paddingTop: { xs: '5px', md: '3px', lg: '0px' },
+                            },
+                            marginLeft: { xs: '-2.5px', md: '-1.5px', lg: '0px' },
+                            marginTop: { xs: '-5px', md: '-3px', lg: '0px' },
+                            width: { xs: 'calc(100% + 5px)', md: 'calc(100% + 3px)', lg: 'calc(100% - 100px)' },
+                        }}
+                    >
                         <Grid item xs={12} sm={6} md={4} lg={4}>
                             <Cardone />
                         </Grid>
                         <Grid item xs={12} sm={6} md={4} lg={4}>
                             <Cardtwo />
                         </Grid>
-                        <Grid item xs={12} sm={6}  md={4}lg={4}>
+                        <Grid item xs={12} sm={6} md={4} lg={4}>
                             <Cardthree />
                         </Grid>
-                        <Grid item xs={12} sm={6}  md={4}lg={4}>
+                        <Grid item xs={12} sm={6} md={4} lg={4}>
                             <Cardfour />
                         </Grid>
-                        <Grid item xs={12} sm={6}  md={4}lg={4}>
+                        <Grid item xs={12} sm={6} md={4} lg={4}>
                             <Cardfive />
                         </Grid>
-                        <Grid item xs={12} sm={6}  md={4}lg={4}>
+                        <Grid item xs={12} sm={6} md={4} lg={4}>
                             <Cardsix />
                         </Grid>
                     </Grid>
