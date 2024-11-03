@@ -1,6 +1,6 @@
 # admin panel
 
-
+not funtinal admin panel just a simple demo want a funtional admin panel visit: https://github.com/SabaAsgarian/Admin-Panel
 
 
 
